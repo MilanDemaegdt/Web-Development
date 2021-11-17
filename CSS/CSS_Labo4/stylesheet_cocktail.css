@@ -38,7 +38,9 @@ header p {
     background-image: url("images/cocktail.gif");
     background-repeat: repeat-x;
 }
-
+.rechts a:hover {
+    background-color;
+}
 .links {
     width: 70%;
 }
