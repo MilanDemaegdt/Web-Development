@@ -1,0 +1,18 @@
+body {
+    margin: 2.5%;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    font-size: 1.2em;
+
+}
+h1 {
+    text-decoration-color: #007e7e;
+    font-size: 150%;
+}
+h2 {
+    text-decoration-color: #007e7e;
+    font-size: 130%;
+}
+header p {
+    display: flex;
+    justify-content: center;
+}
