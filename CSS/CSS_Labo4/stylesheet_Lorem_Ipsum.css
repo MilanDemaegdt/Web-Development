@@ -1,12 +1,10 @@
 .column {
-    width: 50%;
-    float: left;
-    padding: 10px;
-    box-sizing: border-box;
     border: 1px solid black;
-
+    padding: 10px;
 }
-.space {
+div {
+    width: 50%;
     padding: 10px;
     box-sizing: border-box;
+    display: inline-block;
 }

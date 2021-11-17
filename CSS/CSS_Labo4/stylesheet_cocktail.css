@@ -5,14 +5,52 @@ body {
 
 }
 h1 {
-    text-decoration-color: #007e7e;
+    color: #007e7e;
     font-size: 150%;
 }
 h2 {
-    text-decoration-color: #007e7e;
+    color: #007e7e;
     font-size: 130%;
 }
+section #guarantee {
+    margin: 30px;
+    margin-right: 180px;
+    padding: 20px;
+    padding-left: 100px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 1px dotted white;
+    background-image: url("images/background.gif");
+    background-repeat: no-repeat;
+}
+
 header p {
     display: flex;
     justify-content: center;
+}
+.rechts {
+    width: 30%;
+    float: right;
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid darkcyan;
+    text-align: center;
+    background-image: url("images/cocktail.gif");
+    background-repeat: repeat-x;
+}
+
+.links {
+    width: 70%;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 0.6em;
+}
+.rechts h1 {
+    color: black;
+}
+.rechts h2 {
+    color: red;
 }
