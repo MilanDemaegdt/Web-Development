@@ -11,7 +11,7 @@ thead tr:last-child{
 thead tr:first-child{
     background-color: rgb(170,170,200);
 }
-tr:nth-child(1) td:first-child, tr:last-child td:nth-child(5), tr:last-child td:nth-child(6), tr:last-child td:nth-child(7){
+tr:first-child td:first-child, tr:last-child td:nth-child(5), tr:last-child td:nth-child(6), tr:last-child td:nth-child(7){
     background-color: lightgray;
 }
 td:last-child, td:first-child{
