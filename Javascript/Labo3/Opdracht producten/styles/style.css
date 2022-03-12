@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    overflow: hidden;
+}
+
+th,td {
+    padding: 10px;
+    text-align: left;
+    border-style: double;
+}
+
+
