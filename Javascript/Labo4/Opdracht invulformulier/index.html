@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Title</title>
+</head>
+<body>
+<section class="box">
+    <label for="firstname">First name*: </label>
+    <input type="text" name="firstname" size="aantal karakters zichtbaar" maxlength="max lengte" placeholder="Your first name" required="required" id="firstname"/> <br>
+    <label for="lastname">Last name*: </label>
+    <input type="text" name="lastname" size="aantal karakters zichtbaar" maxlength="max lengte" placeholder="Your last name" required="required" id="lastname"/> <br>
+
+    <label for="checkbox">Which sport do you train?</label><br/>
+    <label for="running">Running</label>
+    <input type="checkbox" name="running" id="running"/><br/>
+    <label for="swimming">Swimming</label>
+    <input type="checkbox" name="swimming" id="swimming"/><br/>
+    <label for="rowing">Rowing</label>
+    <input type="checkbox" name="rowing" id="rowing"/><br/>
+
+    <label for="gender">What is your gender?</label><br/>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" value=”m" id="male"/><br/>
+    <label for="female">Female</label>
+    <input type="radio" name="gender" value=”f" id="female"/><br/>
+
+    <label for="movie">Favorite movie: </label>
+    <input type="text" name="movie" size="aantal karakters zichtbaar" maxlength="max lengte" id="movie"/> <br>
+    <label for="quote">Favorite quote: </label>
+    <input type="text" name="quote" size="aantal karakters zichtbaar" maxlength="max lengte" placeholder="Write your favorite quote" id="quote"/> <br>
+    <label for="password">Password*: </label>
+    <input type="password" name="quote" size="aantal karakters zichtbaar" maxlength="max lengte" required="required" id="password"/> <br>
+
+    <label for="eten">Favorite food: </label>
+    <input list="eten" name="eten" />
+    <datalist id="eten">
+        <option value="Hamburger">
+        <option value="Pizza">
+        <option value="Frieten">
+    </datalist><br/>
+
+    <input type="file" name="file" size="aantal karakters zichtbaar" maxlength="max lengte" /> <br>
+    <label for="email">Email adress: </label>
+    <input type="email" name="email" size="aantal karakters zichtbaar" maxlength="max lengte" id="email" /> <br>
+
+    <label for="website">Favorite site:</label>
+    <input type="url" name="website" placeholder="Enter the url of your favorite site" id="website"/><br/>
+
+    <label for="number">Your favorite number between 1-10:</label>
+    <input type="number" name=”number” min=”1” max=”10”
+           step=”1” id="number"/>
+    <br/>
+
+    <label for="range">Your favorite number between 11-1000:</label>
+    <input type="range" name="range" min="11" max="1000" step="1" id="range" /><br/>
+
+    <label for="date">When were you born?</label>
+    <input type="date" name="date" id="date" placeholder="Dag/Maand/Jaar"/><br/>
+
+    <label for="code">Belgium zip-code reg number*: </label>
+    <input type="number" name="date" id="code" required="required" placeholder="9999" max="9999" min="1000"/><br/>
+
+    <label for="search">Search for something: </label>
+    <input type="text" name="search" id="search" /><br/>
+
+    <label for="kleur">What is your favorite color?</label>
+    <input type="color" name="kleur" id="kleur"><br>
+
+    <input type="submit" value="submit">
+</section>
+<script type="text/javascript" charset="utf-8"
+        src="scripts/code.js"></script>
+</body>
+</html>
